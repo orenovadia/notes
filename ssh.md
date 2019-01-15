@@ -31,4 +31,7 @@ Host github.com-private
         IdentityFile ~/.ssh/keys/<pathtokey>
 ```
 
+### Step 4:
+Might need to restart ssh agent
+
 ### That's it
