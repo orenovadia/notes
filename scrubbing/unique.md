@@ -14,7 +14,8 @@ sys 0m0.358s
 ## `O(n)` time with `awk`
 Using `awk '!a[$0]++`
 
-```$ time cat test | awk '!a[$0]++' | wc -l 
+```
+$ time cat test | awk '!a[$0]++' | wc -l 
 1000000
 
 real    0m2.585s
