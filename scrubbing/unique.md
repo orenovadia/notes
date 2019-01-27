@@ -22,3 +22,6 @@ real    0m2.585s
 user    0m2.549s
 sys 0m0.151s
 ```
+
+### With counts
+`awk '{a[$0]++}END{for (i in a) print a[i],i}'`
