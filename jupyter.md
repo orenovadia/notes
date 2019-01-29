@@ -1,8 +1,14 @@
 # Jupyter
 ## Jupyter on remote server:
-`jupyter-notebook  --ip 0.0.0.0 --NotebookApp.allow_remote_access=True --NotebookApp.password='sha1:463cb16fa2fa:8d018fd705517896e059fd1cbf622847b7e12d22'`
 
-Where the password is generated like: `python -c 'from notebook.auth import passwd; print repr(passwd())'` 
+```
+jupyter-notebook  --ip 0.0.0.0 --NotebookApp.allow_remote_access=True --NotebookApp.password='sha1:463cb16fa2fa:8d018fd705517896e059fd1cbf622847b7e12d22'
+```
+
+Where the password is generated like: 
+```
+python -c 'from notebook.auth import passwd; print repr(passwd())'
+```
 
 ## Better yet: creating a config:
 
@@ -18,6 +24,8 @@ c.NotebookApp.password = u'sha1:463cb16fa2fa:8d018fd705517896e059fd1cbf622847b7e
 ## Creating a systemctl
 
 ```$ sudo vi /etc/systemd/system/jupyter.service```
+
+fill with:
 
 ```
 [Unit]
