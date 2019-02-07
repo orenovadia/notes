@@ -32,6 +32,10 @@ Host github.com-private
 ```
 
 ### Step 4:
-Might need to restart ssh agent
+Test that it is working:
+```
+ssh -T git@github.com-private
+```
+You should see a message from github showing the user name you authenticated with
 
 ### That's it
