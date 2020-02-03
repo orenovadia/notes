@@ -1,4 +1,10 @@
 # Jupyter
+
+## Stop annoying tracebacks:
+```
+%xmode minimal
+```
+
 ## Jupyter on remote server:
 
 ```
