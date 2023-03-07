@@ -10,3 +10,8 @@ Tunnel to the host if needed:
 ```
 ssh -T -L  8888:localhost:8888 user@ip-of-server
 ```
+
+Browse:
+```
+open http://localhost:8888
+```
