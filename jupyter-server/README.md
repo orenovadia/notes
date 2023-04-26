@@ -1,3 +1,15 @@
+# My Script:
+
+```
+jupyter-server
+```
+
+And to kill:
+
+```
+jupyter-server kill
+```
+
 # In Docker:
 
 ```bash
